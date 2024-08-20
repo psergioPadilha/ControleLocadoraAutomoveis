@@ -6,4 +6,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ControleLocacaoAutomoveis.Infraestrutura.Orm\ControleLocadoraAutomoveis.Infraestrutura.Orm.csproj" />
+  </ItemGroup>
+
 </Project>
