@@ -5,19 +5,29 @@ VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Apresentacao", "1. Apresentacao", "{49DAE263-03D6-4990-8E86-11D6785C0A3F}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Dominio", "2. Dominio", "{10A225DE-CFCC-46E7-886C-BB35CD9E68C2}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Dominio", "3. Dominio", "{10A225DE-CFCC-46E7-886C-BB35CD9E68C2}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Infraestrutura", "3. Infraestrutura", "{A9AEF838-DCFD-4EAE-9FE5-C9E3064A2CB3}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Infraestrutura", "4. Infraestrutura", "{A9AEF838-DCFD-4EAE-9FE5-C9E3064A2CB3}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Testes", "4. Testes", "{5F4FB7EF-30B7-4979-8DF1-003C02481AF4}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5. Testes", "5. Testes", "{5F4FB7EF-30B7-4979-8DF1-003C02481AF4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControleLocadoraAutomoveis.Dominio", "ControleLocacaoAutomoveis.Dominio\ControleLocadoraAutomoveis.Dominio.csproj", "{1B25AB19-1882-452A-86EB-8DD0CA151844}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControleLocadoraAutomoveis.Dominio", "ControleLocacaoAutomoveis.Dominio\ControleLocadoraAutomoveis.Dominio.csproj", "{1B25AB19-1882-452A-86EB-8DD0CA151844}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControleLocadoraAutomoveis.Infraestrutura.Orm", "ControleLocacaoAutomoveis.Infraestrutura.Orm\ControleLocadoraAutomoveis.Infraestrutura.Orm.csproj", "{0813AE16-3B34-4C3A-ABBA-82B98B981167}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControleLocadoraAutomoveis.Infraestrutura.Orm", "ControleLocacaoAutomoveis.Infraestrutura.Orm\ControleLocadoraAutomoveis.Infraestrutura.Orm.csproj", "{0813AE16-3B34-4C3A-ABBA-82B98B981167}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControleLocadoraAutomoveis.Testes.Integracao", "ControleLocadoraAutomoveis.Testes.Integracao\ControleLocadoraAutomoveis.Testes.Integracao.csproj", "{179C2441-C8EC-4E92-8373-532286AECE1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControleLocadoraAutomoveis.WebApp", "ControleLocadoraAutomoveis.WebApp\ControleLocadoraAutomoveis.WebApp.csproj", "{AA19E842-2B41-4D00-9354-83DB6F049A72}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControleLocadoraAutomoveis.WebApp", "ControleLocadoraAutomoveis.WebApp\ControleLocadoraAutomoveis.WebApp.csproj", "{AA19E842-2B41-4D00-9354-83DB6F049A72}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1. Unidade", "4.1. Unidade", "{ABA3E651-C281-4A23-92AA-84866F731536}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2. Integracao", "4.2. Integracao", "{30745680-8210-4B2E-B63D-5F6B64459B01}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControleLocadoraAutomoveis.Testes.Unidade", "ControleLocadoraAutomoveis.Testes.Unidade\ControleLocadoraAutomoveis.Testes.Unidade.csproj", "{0A3C8877-C23D-4FC1-B68F-CE2731961F18}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControleLocadoraAutomoveis.Testes.Integracao.Orm", "ControleLocadoraAutomoveis.Testes.Integracao.Orm\ControleLocadoraAutomoveis.Testes.Integracao.Orm.csproj", "{23F47287-B51C-4D5D-B178-27D37EB389DA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Aplicacao", "2. Aplicacao", "{324C53F1-7888-408C-BA1A-6F3BD5F9A4FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControleLocadoraAutomoveis.Aplicacao", "ControleLocadoraAutomoveis.Aplicacao\ControleLocadoraAutomoveis.Aplicacao.csproj", "{87291702-76B8-4E73-A6A9-43C6B25E9324}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,14 +43,22 @@ Global
 		{0813AE16-3B34-4C3A-ABBA-82B98B981167}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0813AE16-3B34-4C3A-ABBA-82B98B981167}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0813AE16-3B34-4C3A-ABBA-82B98B981167}.Release|Any CPU.Build.0 = Release|Any CPU
-		{179C2441-C8EC-4E92-8373-532286AECE1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{179C2441-C8EC-4E92-8373-532286AECE1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{179C2441-C8EC-4E92-8373-532286AECE1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{179C2441-C8EC-4E92-8373-532286AECE1E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AA19E842-2B41-4D00-9354-83DB6F049A72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AA19E842-2B41-4D00-9354-83DB6F049A72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA19E842-2B41-4D00-9354-83DB6F049A72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA19E842-2B41-4D00-9354-83DB6F049A72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A3C8877-C23D-4FC1-B68F-CE2731961F18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A3C8877-C23D-4FC1-B68F-CE2731961F18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A3C8877-C23D-4FC1-B68F-CE2731961F18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A3C8877-C23D-4FC1-B68F-CE2731961F18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23F47287-B51C-4D5D-B178-27D37EB389DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23F47287-B51C-4D5D-B178-27D37EB389DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23F47287-B51C-4D5D-B178-27D37EB389DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23F47287-B51C-4D5D-B178-27D37EB389DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87291702-76B8-4E73-A6A9-43C6B25E9324}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87291702-76B8-4E73-A6A9-43C6B25E9324}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87291702-76B8-4E73-A6A9-43C6B25E9324}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87291702-76B8-4E73-A6A9-43C6B25E9324}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,8 +66,12 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{1B25AB19-1882-452A-86EB-8DD0CA151844} = {10A225DE-CFCC-46E7-886C-BB35CD9E68C2}
 		{0813AE16-3B34-4C3A-ABBA-82B98B981167} = {A9AEF838-DCFD-4EAE-9FE5-C9E3064A2CB3}
-		{179C2441-C8EC-4E92-8373-532286AECE1E} = {5F4FB7EF-30B7-4979-8DF1-003C02481AF4}
 		{AA19E842-2B41-4D00-9354-83DB6F049A72} = {49DAE263-03D6-4990-8E86-11D6785C0A3F}
+		{ABA3E651-C281-4A23-92AA-84866F731536} = {5F4FB7EF-30B7-4979-8DF1-003C02481AF4}
+		{30745680-8210-4B2E-B63D-5F6B64459B01} = {5F4FB7EF-30B7-4979-8DF1-003C02481AF4}
+		{0A3C8877-C23D-4FC1-B68F-CE2731961F18} = {ABA3E651-C281-4A23-92AA-84866F731536}
+		{23F47287-B51C-4D5D-B178-27D37EB389DA} = {30745680-8210-4B2E-B63D-5F6B64459B01}
+		{87291702-76B8-4E73-A6A9-43C6B25E9324} = {324C53F1-7888-408C-BA1A-6F3BD5F9A4FD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FA9878D3-4DB0-493B-B7DC-EDF7FF032AF1}

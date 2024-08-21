@@ -10,6 +10,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="appsettings.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="appsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="coverlet.collector" Version="6.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.8">
       <PrivateAssets>all</PrivateAssets>
@@ -21,17 +31,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Using Include="Microsoft.VisualStudio.TestTools.UnitTesting" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Integracao\" />
-    <Folder Include="Unidade\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\ControleLocacaoAutomoveis.Dominio\ControleLocadoraAutomoveis.Dominio.csproj" />
     <ProjectReference Include="..\ControleLocacaoAutomoveis.Infraestrutura.Orm\ControleLocadoraAutomoveis.Infraestrutura.Orm.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="Microsoft.VisualStudio.TestTools.UnitTesting" />
   </ItemGroup>
 
 </Project>

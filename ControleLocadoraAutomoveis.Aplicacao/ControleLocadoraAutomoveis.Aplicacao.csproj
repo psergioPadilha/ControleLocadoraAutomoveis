@@ -10,4 +10,9 @@
     <PackageReference Include="FluentResults" Version="3.16.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ControleLocacaoAutomoveis.Dominio\ControleLocadoraAutomoveis.Dominio.csproj" />
+    <ProjectReference Include="..\ControleLocacaoAutomoveis.Infraestrutura.Orm\ControleLocadoraAutomoveis.Infraestrutura.Orm.csproj" />
+  </ItemGroup>
+
 </Project>
